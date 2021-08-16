@@ -1,0 +1,110 @@
+---
+layout: default
+---
+<div class="container mt-5 py-5 col-lg-10 mx-auto">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <!-- Post title-->
+                    <h1 class="fw-bolder mb-1">{{ page.title }}</h1>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2"><span>{{ page.time | date_to_long_string }} oleh {{
+                            site.admin}}</span>
+                    </div>
+                    <!-- Post categories-->
+                    <a class="badge bg-secondary text-decoration-none link-light"
+                        href="{{ site.url }}/kategori/{{ page.categories }}">{{ page.categories-title }}</a>
+                </header>
+                <!-- Preview image figure-->
+                <figure class="text-center mb-3" data-aos="fade-up" data-aos-duration="1000">
+                    <img class="img-fluid rounded shadow-sm" src="{{ page.image }}" alt="..." />
+                    <small class="bg-light">Foto By : {{ page.cp }}</small>
+                    <style>
+                        small {
+                            padding: 10px;
+                            padding-top: 10px;
+
+                        }
+
+                        /*.title{
+                            font-size: 24px;
+                        }*/
+                    </style>
+                </figure>
+
+                <!-- Post content-->
+                <section class="cgs-blog mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    {{ content }}
+                </section>
+            </article>
+
+        </div>
+        <!-- Side widgets-->
+        <div class="col-lg-4">
+            <div class="position-sticky" style="top: 5rem;">
+                <div class="card mb-4 bg-white border-0 ">
+                    <div class="card-header bg-dark text-white text-uppercase">Kategori</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="text-dark" href="{{ site.url }}/kategori/tipsbisnis/">&raquo; Tips Bisnis</a></li>
+                                    
+                                </ul>
+                            </div>
+                           <!-- <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="text-dark" href="#!">&raquo; JavaScript</a></li>
+                                    <li><a class="text-dark" href="#!">&raquo; CSS</a></li>
+                                    <li><a class="text-dark" href="#!">&raquo; Tutorials</a></li>
+                                </ul>
+                                
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 bg-white border-0 ">
+                    <div class="card-header bg-dark text-white text-uppercase">Produk</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="text-dark" href="{{ site.url }}/p/produk-software/">&raquo;
+                                            Software</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+
+                                    <li><a class="text-dark" href="{{ site.url }}/p/produk-hardware/">&raquo;
+                                            Hardware</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+    .cgs-blog {
+        font-family: 'Heebo', sans-serif;
+        font-size: 19px;
+    }
+
+    .cgs-title {
+        font-family: 'Noto Serif', serif;
+    }
+</style>

@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg py-2 navbar-light bg-white shadow-sm mx-auto fixed-top" data-aos="zoom-out"
+    data-aos-duration="1000">
+    <div class="container col-lg-10 mx-auto">
+        <a class="navbar-brand" href="{{ site.url }}">
+            <img src="{{ site.cdn }}/assets/img/logo.png" width="100%" alt="logo">
+        </a>
+        <button class="navbar-toggler border-0 shadow-sm" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ site.url }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}/p/tentang-kami/">Tentang Kami</a>
+                </li>
+               <!-- <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}/produk/">Contoh Produk</a>
+                </li>-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                        aria-expanded="false">Produk</a>
+                    <ul class="dropdown-menu border-nav" aria-labelledby="dropdown03">
+                        <li><a class="dropdown-item" href="{{ site.url }}/p/produk-software/">Software</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/p/produk-hardware/">Hardware</a></li>
+                     
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}/p/testimoni-kami/">Testimoni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}/blog/">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}/p/hubungi-kami/">Hubungi Kami</a>
+                </li>
+
+                <!--
+                whatsapp button : none
+                    <li class="nav-item">
+                        <a href="" class="btn btn-primary"><img class="text-center" src="./img/wa.png" width="23px" height="23px" alt="" srcset=""> Whatsapp</a>
+                    </li> 
+                -->
+            </ul>
+        </div>
+    </div>
+</nav>
