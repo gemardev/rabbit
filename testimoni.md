@@ -13,10 +13,12 @@ permalink: /p/testimoni-kami/
 <div class="bg-white">
     <div class="container py-5">
         <div class="row align-items-center">
-            <div class="col-lg-6 order-1 order-lg-1">
+           
+            <div class="col-lg-6 mx-auto " ><iframe width="100%" height="520" src="https://www.youtube.com/embed/phOKhQQOx8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+             <div class="col-lg-6 mx-auto " ><iframe src="https://drive.google.com/file/d/1Z0v1OmEDNQCxeYqE5ZwgYOsZnBwpPqmm/preview" width="100%" height="520" allow="autoplay"></iframe></div>
+           <div class="col-lg-6 ">
                 <img src="{{ site.cdn }}/assets/img/testi.jpg" alt="" class="img-fluid mb-4 mb-lg-0" data-aos="fade-down" data-aos-duration="1000">
             </div>
-            <div class="col-lg-6 mx-auto order-2 order-lg-2" ><iframe width="100%" height="520" src="https://www.youtube.com/embed/phOKhQQOx8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
     </div>
 </div>
