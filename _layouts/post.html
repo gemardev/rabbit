@@ -36,9 +36,33 @@ layout: default
                 </figure>
 
                 <!-- Post content-->
-                <section class="cgs-blog mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <section class="cgs-blog" data-aos="fade-up" data-aos-duration="1000">
                     {{ content }}
                 </section>
+                <div class="col-lg-6 mx-auto text-center mt-3 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <hr>
+                    <p>Bagikan Artikel :</p>
+                    <div title="Bagikan ke teman anda" class="row text-center col-lg-12">
+                        <div class="col-lg-4 col-md-4 col-4"><a class="btn btn-light border shadow-sm text-light bg-danger"
+                                href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
+                                target="_blank"><i class="fa fa-facebook-square"></i></a></div>
+                        <div class="col-lg-4 col-md-4 col-4"><a class="btn btn-light border shadow-sm text-light bg-primary"
+                                href="http://twitter.com/share?url={{ site.url }}{{ page.url }}"
+                                target="_blank" class="twitter-share-button"><i
+                                    class="fa fa-twitter"></i></a></div>
+                        
+                        <div class="col-lg-4 col-md-4 col-4"><a class="btn btn-light border shadow-sm text-light bg-success"
+                                href="whatsapp://send?text={{ site.url }}{{ page.url }}"
+                                target="_blank"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                        <style>
+                            .sb {
+                                background-color: #f3f3f3;
+                            }
+                        </style>
+                    </ul>
+
+                </div>
             </article>
 
         </div>
@@ -51,11 +75,12 @@ layout: default
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a class="text-dark" href="{{ site.url }}/kategori/tipsbisnis/">&raquo; Tips Bisnis</a></li>
-                                    
+                                    <li><a class="text-dark" href="{{ site.url }}/kategori/tipsbisnis/">&raquo; Tips
+                                            Bisnis</a></li>
+
                                 </ul>
                             </div>
-                           <!-- <div class="col-sm-6">
+                            <!-- <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
                                     <li><a class="text-dark" href="#!">&raquo; JavaScript</a></li>
                                     <li><a class="text-dark" href="#!">&raquo; CSS</a></li>
