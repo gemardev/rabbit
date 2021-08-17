@@ -1,14 +1,9 @@
-title: Cipta Graha Software
-description : Jasa Pembuatan Software Pekalongan
+title: Gemar Kode
+description : Komunitas Programmer Dan Penggiat Teknologi Indonesia
 permalink : /:year/:month/:title/
-url : https://www.ciptagrahasoftware.com
-cdn : https://cdn.ciptagrahasoftware.com
-show_excerpts: false # set to true to show excerpts on the homepage
-paginate_path: "/blog/:num/"
-paginate: 9
-admin : Cgs Admin
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+url : https://gemarkode.or.id
+show_excerpts: false
+
 minima:
   date_format: "%-d %b, %Y"
 
@@ -52,7 +47,7 @@ minima:
 # - about.md
 
 # Build settings
-theme: cgsweb
+theme: gdev
 #ig: https://www.instagram.com/torika_shop/
 #wahalo: https://api.whatsapp.com/send/?phone=6281286860257&text=Halo%20Torika%20Shop&app_absent=0
 #wabuy: https://api.whatsapp.com/send/?phone=6281286860257&text=Halo%20Apakah%20Produk
@@ -62,10 +57,9 @@ theme: cgsweb
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-paginate
+
 
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site

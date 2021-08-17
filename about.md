@@ -1,43 +1,29 @@
 ---
 layout: page
 title: Tentang Kami
-description : Penyedia Jasa atau layanan IT
-permalink: /p/tentang-kami/
+description : Sekilas Tentang Gemar Kode
+permalink: /tentang/
 ---
-<section class="py-5 bg-cgs mt-5">
-    <div class="container">
-        <h2 class="text-center text-white py-3 text-uppercase" data-aos="fade-down" data-aos-duration="1000">CV. Cipta Graha Software</h2>
+<section class="py-5 mt-5 bg-dark">
+  <div class="container mt-5">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h2 class="font-weight-light text-light">Sekilas Tentang Gemar Kode</h2>
+        <p class="font-italic text-muted mb-4">Dibentuk sejak 12 februari 2020, mulai menampilkan diri ke publik pada tanggal 27 juli 2020. Sejak saat itu mulai mengikuti berbagai event dan ikut mendukung perkembangan teknologi di indonesia.</p>
+      </div>
+      <div class="col-lg-6 px-5 mx-auto order-1 order-lg-2"><img src="{{ site.url }}/animasi.svg" alt="" class="img-fluid mb-4 mb-lg-0"></div>
     </div>
+  </div>
 </section>
-<div class="service-39 py-5 wrap-service39-box">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6" data-aos="fade-down" data-aos-duration="1000"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/7UCcOY6j-vA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></div>
-            <div class="col-lg-6">
-                <div class="card-body">
-                    <p class=" text-dark" data-aos="fade-down" data-aos-duration="1000">Cipta Graha Software merupakan penyedia jasa atau layanan IT
-                    yang memiliki spesialisasi dalam pengembangan perangkat lunak (software) tepat guna. Hal tersebut bertujuan untuk membantu Instansi atau Bidang Usaha dalam mengatasi kendala yang
-                    dihadapi dengan menerapkan Teknologi Informasi.</p>
-                     <div class="d-block d-md-flex">
-                        <div class="display-5 mr-3"><i class="icon-paper-plane text-success-gradiant"></i></div>
-                        <div data-aos="fade-down" data-aos-duration="1000">
-                            <h5>Visi</h5>
-                            <h6 class="subtitle font-weight-normal text-muted">Menghasilkan Perangkat Lunak (Software) Tepat Guna</h6>
-                        </div>
-                    </div>
-                    <!-- column  -->
-                    <div class="d-block d-md-flex mb-4">
-                        <div class="display-5 mr-3"><i class="icon-folder text-success-gradiant"></i></div>
-                        <div data-aos="fade-down" data-aos-duration="1000">
-                            <h5>Misi</h5>
-                            <h6 class="subtitle font-weight-normal text-muted">Memberikan After Sales Support yang optimal</h6>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
+
+<section class="py-5 bg-light">
+  <div class="container mb-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 px-5 mx-auto"><img src="{{ site.url }}/01.svg" alt="" class="img-fluid mb-4 mb-lg-0"></div>
+      <div class="col-lg-6">
+        <h2 class="font-weight-light">Satu Harapan Dan Tujuan</h2>
+        <p class="font-italic text-muted mb-4">Membentuk sebuah forum dan wadah berdiskusi bagi para remaja penggiat teknologi, khususnya dalam bidang software engineering. Memberikan wawasan tentang aturan dalam dunia siber (cyber law) sesuai dengan aturan yang ada di indonesia.</p>
+      </div>
     </div>
-</div>
+  </div>
+</section>

@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name     = "cgsweb"
+  spec.name     = "gdev"
   spec.version  = "1.0"
   spec.authors  = ["Rizky Tegar"]
   spec.email    = ["mail.rizkytegar@github.com"]
 
-  spec.summary  = "Cgs Web."
-  spec.homepage = "https://github.com/rizkytegar/ciptagrahasoftware/"
+  spec.summary  = "gdev."
+  spec.homepage = "https://github.com/rizkytegar/gdev/"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
