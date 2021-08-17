@@ -1,7 +1,7 @@
 title: Gemar Kode
 description : Komunitas Programmer Dan Penggiat Teknologi Indonesia
 permalink : /:year/:month/:title/
-url : http://127.0.0.1:4000
+url : https://gemarkode.or.id
 show_excerpts: false
 
 minima:
