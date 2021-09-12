@@ -9,9 +9,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    #twitter: 
+    #twitter:
 
-    whatsapp: 
+    whatsapp:
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -68,4 +68,3 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-
