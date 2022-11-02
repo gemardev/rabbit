@@ -2,67 +2,21 @@ title: Gemar Kode
 description : Komunitas Programmer Dan Penggiat Teknologi Indonesia
 permalink : /:year/:month/:title/
 url : https://www.gemarkode.or.id/
-show_excerpts: false
 
 minima:
   date_format: "%-d %b, %Y"
 
-  # generate social links in footer
-  social_links:
-    #twitter:
 
-    whatsapp:
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
-# Build settings
 theme: gdev
-#ig: https://www.instagram.com/torika_shop/
-#wahalo: https://api.whatsapp.com/send/?phone=6281286860257&text=Halo%20Torika%20Shop&app_absent=0
-#wabuy: https://api.whatsapp.com/send/?phone=6281286860257&text=Halo%20Apakah%20Produk
-#fb: https://www.facebook.com/torikashop/
-#shopee: https://shopee.co.id/torika_shop
-#copyright : Copyright © 2021 Torika Shop
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
 
 gems:
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-feed 
 
-# Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
