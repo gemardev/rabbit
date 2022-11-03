@@ -1,4 +1,5 @@
  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+
  .service-10 {
      font-family: "Montserrat", sans-serif;
      font-weight: 300;
@@ -166,4 +167,9 @@
 
 .photo-gallery .item {
   padding-bottom:30px;
+}
+
+.nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
 }
