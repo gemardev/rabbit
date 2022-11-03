@@ -41,4 +41,4 @@ url : http://127.0.0.1:4000
 gem exec jekyll serve
 ```
 
-cek folder ```/script``` untuk melihat detail command
+cek folder [```/script```](https://github.com/gemarkode/Website/tree/master/script) untuk melihat detail command
