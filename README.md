@@ -2,6 +2,8 @@
 
 Gemar Kode Official Website
 
+[![Deploy Jekyll site to Pages](https://github.com/gemarkode/Website/actions/workflows/jekyll.yml/badge.svg)](https://github.com/gemarkode/Website/actions/workflows/jekyll.yml)
+
 ## install
 
 ### Required 
