@@ -1,11 +1,10 @@
 title: Gemar Kode
 description : Komunitas Programmer Dan Penggiat Teknologi Indonesia
 permalink : /:year/:month/:title/
-url : https://www.gemarkode.or.id/
+url : https://www.gemarkode.or.id
 
 minima:
   date_format: "%-d %b, %Y"
-
 
 theme: gdev
 

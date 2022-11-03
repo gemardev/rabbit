@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name     = "gdev"
   spec.version  = "1.0"
-  spec.authors  = ["Rizky Tegar"]
-  spec.email    = ["mail.rizkytegar@github.com"]
+  spec.authors  = ["Gemar Kode"]
+  spec.email    = ["gemarkode@github.com"]
 
   spec.summary  = "gdev."
-  spec.homepage = "https://github.com/rizkytegar/gdev/"
+  spec.homepage = "https://github.com/gemarkode/Website/"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
