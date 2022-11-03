@@ -1,17 +1,19 @@
 title: Gemar Kode
-description : Komunitas Programmer Dan Penggiat Teknologi Indonesia
+
+description : Community of inclusive Open Source people
+
 permalink : /:year/:month/:title/
+
+# Production
 url : https://www.gemarkode.or.id
 
-minima:
-  date_format: "%-d %b, %Y"
+# development
+#url : http://127.0.0.1:4000
 
 theme: gdev
 
 plugins:
  - jekyll-feed
- - jekyll-seo-tag
-
 
 gems:
   - jekyll-feed 
