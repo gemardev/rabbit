@@ -8,6 +8,10 @@ Website : gemarkode.or.id
 
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
  .gemar-card {
      font-family: "Montserrat", sans-serif;
      font-weight: 300;
