@@ -1,53 +1,59 @@
- @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
 
- .service-10 {
+
+/*
+
+Github : gemarkode
+Website : gemarkode.or.id
+
+*/
+
+ .gemar-card {
      font-family: "Montserrat", sans-serif;
      font-weight: 300;
  }
 
- .service-10 h5 {
+ .gemar-card h5 {
      line-height: 26px;
      font-size: 21px;
  }
 
- .service-10 .font-medium {
+ .gemar-card .font-medium {
      font-weight: 500;
  }
 
- .service-10 .btn-md {
+ .gemar-card .btn-md {
      padding: 15px 45px;
      font-size: 16px;
  }
 
- .service-10 .op-8 {
+ .gemar-card .op-8 {
      opacity: 0.8;
  }
 
- .service-10 .bg-1 {
+ .gemar-card .bg-1 {
      background-color: #252527;
  }
 
- .service-10 .bg-2 {
+ .gemar-card .bg-2 {
      background-color: #e89f31;
  }
 
- .service-10 .bg-3 {
+ .gemar-card .bg-3 {
      background-color: #252527;
  }
 
- .service-10 .wrap-service10-box {
+ .gemar-card .wrap-gemar-card-box {
      padding: 100px 20px;
      width: 100%;
      max-width: 450px;
      margin: 0 auto;
  }
 
- .service-10 .btn-outline-light:hover {
+ .gemar-card .btn-outline-light:hover {
      color: #263238 !important;
  }
-
- @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
- .static-slider10 {
+ .gemar-header {
      font-family: "Montserrat", sans-serif;
      font-weight: 300;
      padding: 10% 0;
@@ -55,121 +61,37 @@
      background-position: center center;
  }
 
- .static-slider10 .title {
+ .gemar-header .title {
      font-weight: 700;
      font-size: 48px;
      line-height: 50px;
  }
 
- .static-slider10 .subtitle {
+ .gemar-header .subtitle {
      line-height: 24px;
  }
 
  @media (max-width: 900px) {
-     .static-slider10 .title {
+     .gemar-header .title {
          font-size: 40px;
          line-height: 45px;
      }
  }
 
- .static-slider10 .btn-md {
+ .gemar-header .btn-md {
      padding: 15px 45px;
      font-size: 16px;
  }
 
- .static-slider10 .badge {
+ .gemar-header .badge {
      line-height: 21px;
  }
 
- .static-slider10 .badge-inverse {
+ .gemar-header .badge-inverse {
      background: #3e4555;
  }
 
- .static-slider10 .op-8 {
+ .gemar-header .op-8 {
      opacity: 0.8;
  }
-
- @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
- .service-26 {
-     font-family: "Montserrat", sans-serif;
-     color: #8d97ad;
-     font-weight: 300;
- }
-
- .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
-     color: #3e4555;
- }
-
- .service-26 .font-weight-medium {
-     font-weight: 500;
- }
-
- .service-26 .badge {
-     line-height: 14px;
- }
-
- .service-26 .badge-info {
-     background: #188ef4;
- }
-
- .service-26 .wrap-service-26 .max-box {
-     max-width: 580px;
- }
-
- .service-26 a {
-     text-decoration: none;
- }
-
- .service-26 .linking {
-     color: #3e4555;
- }
-
- .service-26 .linking:hover {
-     color: #316ce8;
- }
- .photo-gallery {
-  color:#313437;
-  background-color:#fff;
-}
-
-.photo-gallery p {
-  color:#7d8285;
-}
-
-.photo-gallery h2 {
-  font-weight:bold;
-  margin-bottom:40px;
-  padding-top:40px;
-  color:inherit;
-}
-
-@media (max-width:767px) {
-  .photo-gallery h2 {
-    margin-bottom:25px;
-    padding-top:25px;
-    font-size:24px;
-  }
-}
-
-.photo-gallery .intro {
-  font-size:16px;
-  max-width:500px;
-  margin:0 auto 40px;
-}
-
-.photo-gallery .intro p {
-  margin-bottom:0;
-}
-
-.photo-gallery .photos {
-  padding-bottom:20px;
-}
-
-.photo-gallery .item {
-  padding-bottom:30px;
-}
-
-.nav-item {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
-}
+ 
