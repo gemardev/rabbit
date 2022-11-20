@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Komunitas Kami
+title: Join Community
 description : Bergabung Komunitas Kami
 permalink: /community/
 ---

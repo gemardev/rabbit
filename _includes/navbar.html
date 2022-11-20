@@ -1,4 +1,4 @@
-<nav id="#top" class="navbar shadow-sm navbar-expand-sm navbar-light fixed-top bg-white border-nav ">
+<nav id="#top" data-aos="fade-down" data-aos-duration="2000" class="navbar shadow-sm navbar-expand-sm navbar-light fixed-top bg-white border-nav ">
     <div class="container">
         <a class="navbar-brand" href="{{ site.url }}">
             <img src="{{ site.url }}/assets/img/tes.png" alt="" width="100%" height="100%">
@@ -14,19 +14,23 @@
                     <a class="nav-link active" aria-current="page" href="{{ site.url }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ site.url }}/team/">Team</a>
+                    <a class="nav-link" aria-current="page" href="{{ site.url }}/team/">Our Team</a>
                 </li>
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Our Activity
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="{{ site.url }}/event/">Gemar Talk</a></li>
+                    <li><a class="dropdown-item" href="{{ site.url }}/challenge/">Challenge Session</a></li>
+                    <li><a class="dropdown-item" href="{{ site.url }}/showcase/">Open Showcase</a></li>
+                  </ul>
+                </div>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ site.url }}/challenge/">Challenge</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ site.url }}/event/">Event</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ site.url }}/community/">Our Community</a>
+                    <a class="nav-link" aria-current="page" href="{{ site.url }}/community/">Join Comunity</a>
                 </li>
             </ul>
-
         </div>
     </div>
 </nav>

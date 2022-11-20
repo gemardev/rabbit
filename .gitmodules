@@ -1,3 +1,9 @@
-[submodule "Codebase"]
-	path = Codebase
-	url = https://github.com/gemarkode/Codebase
+[submodule "challenge"]
+	path = challenge
+	url = https://github.com/gemarkode/challenge
+[submodule "event"]
+	path = event
+	url = https://github.com/gemarkode/event
+[submodule "showcase"]
+	path = showcase
+	url = https://github.com/gemarkode/showcase

@@ -1,8 +1,8 @@
 title: Gemar Kode
 
-description : Community of inclusive Open Source people
+description : Community of Inclusive Open Source People and Information Technology Enthusiast
 
-permalink : /:year/:month/:title/
+permalink : /:year/:month/:title
 
 # Production
 url : https://www.gemarkode.or.id
@@ -16,10 +16,9 @@ plugins:
  - jekyll-feed
 
 gems:
-  - jekyll-feed 
+  - jekyll-feed
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README.md

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Team Kami
-description : Team Gemar Kode
+title: Our Team
+description : Orang-orang Hebat Yang Ada Dibalik Gemar Kode
 permalink: /team/
 ---
 
