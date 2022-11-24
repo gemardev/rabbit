@@ -4,8 +4,10 @@ title: Join Community
 description : Bergabung Komunitas Kami
 permalink: /community/
 ---
- 
-
-<div class="container py-5">
-    <h1 class="py-5">Under Maintenance</h1>
-</div>
+<section class="py-5">
+  <div data-aos="fade-up"
+        data-aos-duration="2000" class="container py-5 col-lg-7 mx-auto mt-3">
+    <h1 class="family mt-4">Join Community</h1>
+        <p>under maintenance</p>
+    </div>
+</section>
