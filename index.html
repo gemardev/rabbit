@@ -1,58 +1,46 @@
+---
+layout: default
+title: Gemar Kode
+description : Community of inclusive Open Source people
+---
 
-<!DOCTYPE html>
-<html>
-  <title> Coming Soon </title>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bgimg {
-  background-image: url('https://1.bp.blogspot.com/-EDvNSe1JGfM/X4aB-GGbxRI/AAAAAAAAHRY/aQBeavcwGuIBpvHXuhFlGMPMjEOdQKcVwCLcBGAsYHQ/s1920/background-gunung.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>1 days left</p>
+<div class="gemar-header" style="background-image:url(./assets/img/bg.jpg)">
+  <div class="container">
+    <div class="row justify-content-center py-5 mt-5">
+      <div class="col-md-8 align-self-center text-center py-5 bg-transparent" data-aos="fade-down"
+        data-aos-duration="2000">
+        <h1 class="my-3 title text-white text-uppercase">{{site.title}}</h1>
+        <h6 class="text-white font-weight-normal op-8">{{site.description}}</h6>
+        <a class="btn btn-outline-light rounded-pill btn-md mt-3" href="#community">See More</a>
+      </div>
+    </div>
   </div>
 </div>
-
-</body>
-</html>
+<div class="gemar-card container-fluid mx-auto" id="community">
+  <div class="row no-gutters">
+    <div class="col-lg-4 col-md-4 col-12 py-5 bg-1">
+      <div class="wrap-gemar-card-box text-center text-white">
+        <h2 class="text-white" data-aos="fade-down" data-aos-duration="2000">Gemar Talk</h2>
+        <p class="op-8 my-4" data-aos="fade-left" data-aos-duration="2000"></p>
+        <a href="{{ site.url }}/event" data-aos="fade-up" data-aos-duration="2000"
+          class="btn btn-outline-light btn-md mt-3">See More</a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12 py-5 bg-2">
+      <div class="wrap-gemar-card-box text-white text-center">
+        <h5 class="text-white" data-aos="fade-down" data-aos-duration="2000">Challenge Session</h5>
+        <p class="op-8 my-4" data-aos="zoom-in" data-aos-duration="2000"></p>
+        <a href="{{ site.url }}/challenge" data-aos="fade-up" data-aos-duration="2000"
+          class="btn btn-outline-light btn-md mt-3">See More</a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12 py-5 bg-3">
+      <div class="wrap-gemar-card-box text-white text-center">
+        <h5 class="text-white" data-aos="fade-down" data-aos-duration="2000">Open Showcase</h5>
+        <p class="op-8 my-4" data-aos="fade-right" data-aos-duration="2000"></p>
+        <a href="{{ site.url }}/showcase" data-aos="fade-up" data-aos-duration="2000"
+          class="btn btn-outline-light btn-md mt-3">See More</a>
+      </div>
+    </div>
+  </div>
+</div>
