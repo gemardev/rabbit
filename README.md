@@ -4,7 +4,6 @@
 <p align="center">
 <img src="https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg" alt="Open Source Love"/>
 <img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" />
-<img src="https://github.com/gemarkode/Website/actions/workflows/jekyll.yml/badge.svg" alt="CD" />
 <img src="https://img.shields.io/github/repo-size/gemarkode/gemarkode.github.io" alt="Repo Size" />
 
 </p>
