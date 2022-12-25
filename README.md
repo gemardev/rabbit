@@ -1,15 +1,13 @@
 <div align="center">
-<h1 align="center">👋 Gemar Kode Official Website</h3>
+<h1 align="center">👋 Kelinci Noob Hacker</h3>
 <br />
 <p align="center">
 <img src="https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg" alt="Open Source Love"/>
 <img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" />
-<img src="https://img.shields.io/github/repo-size/gemarkode/gemarkode.github.io" alt="Repo Size" />
+<img src="https://img.shields.io/github/repo-size/gemarkode/kelinci" alt="Repo Size" />
 
 </p>
 </div>
-
-## install
 
 ### Required 
 
@@ -18,34 +16,3 @@
 - Gem version 3.1.x
 - jekyll version 4.3.x
 
-### Clone
-
-```
-git clone https://github.com/gemarkode/Website
-```
-
-### Install Dependensi
-
-```
-bundle install
-```
-
-### Ganti Url 
-
-buka file ```_config.yml```
-
-ubah
-```yml
-url : https://www.gemarkode.or.id
-```
-menjadi
-```yml
-url : http://127.0.0.1:4000
-```
-
-### jalankan Jekyll
-```
-gem exec jekyll serve
-```
-
-cek folder [```/script```](https://github.com/gemarkode/Website/tree/master/script) untuk melihat detail command
