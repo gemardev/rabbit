@@ -1,10 +1,10 @@
 <div align="center">
-<h1 align="center">👋 Kelinci Noob Hacker</h3>
+<h1 align="center">👋 Rabbit Noob Hacker</h3>
 <br />
 <p align="center">
 <img src="https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg" alt="Open Source Love"/>
 <img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" />
-<img src="https://img.shields.io/github/repo-size/gemarkode/kelinci" alt="Repo Size" />
+<img src="https://img.shields.io/github/repo-size/gemarkode/rabbit" alt="Repo Size" />
 
 </p>
 </div>
