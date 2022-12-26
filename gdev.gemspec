@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name     = "gdev"
-  spec.version  = "1.3"
+  spec.version  = "1.0"
   spec.authors  = ["Gemar Kode"]
   spec.email    = ["gemarkode@github.com"]
 
   spec.summary  = "gdev."
-  spec.homepage = "https://github.com/gemarkode/gemarkode.or.id/"
+  spec.homepage = "https://github.com/gemarkode/rabbit"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
